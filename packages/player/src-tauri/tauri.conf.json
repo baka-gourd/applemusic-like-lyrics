@@ -33,7 +33,7 @@
       ]
     },
     "security": {
-      "csp": "default-src 'self' 'unsafe-eval' 'unsafe-inline' data: mediastream: blob: filesystem: https://*",
+      "csp": "default-src 'self' 'unsafe-eval' 'unsafe-inline' data: mediastream: blob: filesystem: https://* http://localhost*",
       "dangerousDisableAssetCspModification": true
     },
     "windows": [
